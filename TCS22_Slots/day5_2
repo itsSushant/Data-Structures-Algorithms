@@ -1,0 +1,7 @@
+a= "processed"
+b= "ed" 
+for i in a:
+        if i in b:
+                a=a.replace(i," ")
+                
+print(a)
